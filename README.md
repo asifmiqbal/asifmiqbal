@@ -1,11 +1,12 @@
 # Sovereign AI Architecture Blueprints & 2026 MoE GPU Repatriation Benchmark
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23417054.svg)](https://doi.org/10.5281/zenodo.23417054)
 [![Logic42 Sovereign Engineering Practice](https://img.shields.io/badge/Logic42-Sovereign_AI_Practice-f59e0b?style=for-the-badge)](https://logic42.ai)
 [![Interactive MoE GPU Calculator](https://img.shields.io/badge/Launch-MoE_VRAM_%26_TCO_Calculator-10b981?style=for-the-badge)](https://logic42.ai/assessments/gpu-tco)
-[![ISO 42001 & Statutory Diagnostics](https://img.shields.io/badge/Run-7_Enterprise_Diagnostics-38bdf8?style=for-the-badge)](https://logic42.ai/assessments)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-MoE_Benchmark_2026-fcd34d?style=for-the-badge)](https://huggingface.co/datasets/asifmiqbal/sovereign-moe-vram-gpu-tco-2026)
 
 > **Maintained by [Asif Muhammad Iqbal](https://www.linkedin.com/in/asifmiqbal/) — Founder & CEO at [Logic42](https://logic42.ai)**  
-> *Build-Transfer-Operate (BTO) Sovereign Data Lakes, Bare-Metal vLLM GPU Clusters, and Deterministic Agent Control Planes.*
+> *Official CERN Zenodo DOI: [10.5281/zenodo.23417054](https://doi.org/10.5281/zenodo.23417054) · Substack Briefing: [asifmuhammadiqbal.substack.com](https://asifmuhammadiqbal.substack.com/p/the-2026-sovereign-ai-architecture)*
 
 ![2026 Frontier MoE VRAM & GPU TCO X-Ray](https://logic42.ai/images/og/og-gpu-tco.png)
 
@@ -80,11 +81,9 @@ Every research brief below includes production failure telemetry, reference arch
 
 ---
 
-## 4. Quickstart: Run the Open-Source CLI Calculator
+## 4. Formal Research Paper Included in `papers/`
 
-```bash
-python cli/moe_vram_calculator.py --model deepseek-v4.1-flash --streams 64 --context-k 32 --daily-m-tokens 150
-```
+- **[Beyond Vanilla RAG: Pre-Generation Decision Models for Edge SLMs (PDF)](papers/Logic42-Beyond-Vanilla-RAG-Pre-Generation-Decision-Models.pdf)** — Canonical interactive brief at [logic42.ai/articles/beyond-vanilla-rag-pre-generation-decision-models](https://logic42.ai/articles/beyond-vanilla-rag-pre-generation-decision-models).
 
 ---
 
